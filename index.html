@@ -12,6 +12,14 @@
 <body>
   <div class="container">
     <h1 class="mt-5">My TODO App</h1>
+
+    <div id="loader" class="d-none my-2">
+      <div class="spinner-border spinner-border-sm text-primary me-2" role="status"></div>
+      <span class="text-muted">Завантаження...</span>
+    </div>
+
+    <div id="error-msg" class="alert alert-danger d-none py-2" role="alert"></div>
+
     <div class="mb-3">
       <span class="me-3">Item count: <span id="item-count">0</span></span>
       <span>Unchecked count: <span id="unchecked-count">0</span></span>
